@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Русский перевод\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2021-04-13 05:30+0200\n"
-"PO-Revision-Date: 2019-08-11 19:23+0600\n"
-"Last-Translator: Pavel Starosek <starosekpd@gmail.com>\n"
+"PO-Revision-Date: 2021-04-14 00:00+0500\n"
+"Last-Translator: Stepan Kashuba <ihaterabbids@gmail.com>\n"
 "Language-Team: Pavel Starosek\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:59
@@ -318,7 +318,7 @@ msgstr "&Закладки"
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:53
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:92
 msgid "&Browse"
-msgstr ""
+msgstr "&Обзор"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:681
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:775
@@ -424,7 +424,7 @@ msgstr "&Удалить символьную ссылку"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:68
 msgid "&Delete..."
-msgstr ""
+msgstr "&Удалить..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:75
 msgid "&Directory access permissions..."
@@ -474,7 +474,7 @@ msgstr "Не использовать внешний IP-адрес при &ло�
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:85
 msgid "&Double-click action on directories:"
-msgstr ""
+msgstr "&Действие по двойному клику для каталогов:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:78
 msgid "&Double-click action on files:"
@@ -594,7 +594,7 @@ msgstr "&Фильтры:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:825
 msgid "&Finish editing"
-msgstr ""
+msgstr "&Закончить правку"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:829
 msgid "&Finish editing and delete local file"
@@ -735,7 +735,7 @@ msgstr "&Передача вручную..."
 
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:49
 msgid "&Master password:"
-msgstr ""
+msgstr "&Мастер пароль:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1148
 msgid "&Maximum number of connections:"
@@ -939,7 +939,7 @@ msgstr "&Заново открыть локальный файл"
 
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:52
 msgid "&Repeat password:"
-msgstr ""
+msgstr "&Повторите пароль:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:115
 msgid "&Replace invalid characters with:"
@@ -1016,11 +1016,11 @@ msgstr "&Сервер"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1220
 msgid "&Set as local directory and close dialog"
-msgstr ""
+msgstr "&Установить как локальный каталог и закрыть окно"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1228
 msgid "&Set as remote directory and close dialog"
-msgstr ""
+msgstr "&Установить как удалённый каталог и закрыть окно"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:383
 msgid "&Settings"
@@ -1275,7 +1275,7 @@ msgstr "(app-compat установлен в %d.%d)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:73
 msgid "(example: %H-%M-%S)"
-msgstr ""
+msgstr "(пример: %H-%M-%S)"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:58
 msgid "(example: %Y-%m-%d)"
@@ -1326,7 +1326,7 @@ msgstr "-s нельзя использовать вместе с адресом 
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:65
 msgid "/Groups"
-msgstr ""
+msgstr "/Группы"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:67
 msgid "/My Drives"
@@ -1513,11 +1513,11 @@ msgstr "&Автоматически очищать успешные загруз
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:358
 msgid "API &Key:"
-msgstr ""
+msgstr "&Ключ API:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:44
 msgid "API Key:"
-msgstr ""
+msgstr "Ключ API:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:165
 msgid "ASCII"
@@ -1918,6 +1918,9 @@ msgid ""
 "active mode. If you want to limit FileZilla to use only a small range of "
 "ports, please enter the port range below."
 msgstr ""
+"По умолчанию в активном режиме FileZilla использует любой доступный "
+"локальный порт для передачи данных. Если Вы хотите ограничить FileZilla в "
+"выборе портов, пожалуйста, укажите ниже доступный диапазон."
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:139
 msgid "C&ancel current operation"
@@ -2135,7 +2138,7 @@ msgstr "Категории для очистки"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:277
 msgid "Certificate"
-msgstr ""
+msgstr "Сертификат"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:546
 msgid "Certificate and session data are not available yet."
@@ -2372,7 +2375,7 @@ msgstr "Соединение испорчено маршрутизатором �
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:93
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2456
 msgid "Compare &modification time"
-msgstr "Сравнить время модификации"
+msgstr "Сравнить время изменения"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:92
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2455
@@ -2644,13 +2647,13 @@ msgstr "Невозможно добавить соединение в Менед
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:122
 #, c-format
 msgid "Could not allocate memory to open '%s' for reading."
-msgstr ""
+msgstr "Недостаточно памяти, чтобы открыть '%s' для чтения."
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:304
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:523
 #, c-format
 msgid "Could not allocate memory to open '%s' for writing."
-msgstr ""
+msgstr "Недостаточно памяти, чтобы открыть '%s' для записи."
 
 #: ../../../source/FileZilla3/locales/../src/interface/state.cpp:908
 msgid "Could not complete operation"
@@ -2714,7 +2717,7 @@ msgstr "Невозможно создать безопасную закладк�
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1314
 msgid "Could not create temporary file name."
-msgstr ""
+msgstr "Невозможно создать имя временного файла."
 
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:903
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2323
@@ -2770,7 +2773,7 @@ msgstr "Невозможно получить ответ от fzputtygen."
 
 #: ../../../source/FileZilla3/locales/../src/interface/storj_key_interface.cpp:106
 msgid "Could not get reply from fzstorj."
-msgstr ""
+msgstr "Невозможно получить ответ от fzstorj."
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1114
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1625
@@ -2779,7 +2782,7 @@ msgstr "Невозможно получить временный каталог 
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:400
 msgid "Could not list directory contents"
-msgstr ""
+msgstr "Невозможно получить содержимое директории"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:649
 #, c-format
@@ -2845,7 +2848,7 @@ msgstr "Невозможно получить размер '%s'"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:302
 #, c-format
 msgid "Could not obtain size of '%s'."
-msgstr ""
+msgstr "Невозможно получить размер '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/interface/updater.cpp:818
 #, c-format
@@ -2855,12 +2858,12 @@ msgstr "Невозможно открыть '%s'"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:239
 #, c-format
 msgid "Could not open '%s' for reading."
-msgstr ""
+msgstr "Невозможно открыть '%s' для чтения."
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:323
 #, c-format
 msgid "Could not open '%s' for writing."
-msgstr ""
+msgstr "Невозможно открыть '%s' для записи."
 
 #: ../../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:227
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1925
@@ -2894,7 +2897,7 @@ msgstr "Невозможно прочитать из '%s'"
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:361
 #, c-format
 msgid "Could not read from '%s'."
-msgstr ""
+msgstr "Невозможно прочитать из '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:992
 msgid "Could not read from data socket."
@@ -2958,7 +2961,7 @@ msgstr "Невозможно начать передачу"
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:423
 #, c-format
 msgid "Could not sync '%s' to disk."
-msgstr ""
+msgstr "Невозможно синхронизировать '%s' с диском."
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:334
 #, c-format
@@ -3006,7 +3009,7 @@ msgstr "Невозможно записать файл с ключом: %s"
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:385
 #, c-format
 msgid "Could not write to '%s'."
-msgstr ""
+msgstr "Невозможно записать в '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:354
 msgid "Could not write to local file"
@@ -3158,11 +3161,11 @@ msgstr "Пользовательский набор фильтров"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1367
 msgid "Custom key cannot be empty."
-msgstr ""
+msgstr "Пользовательский ключ не может быть пустым."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1381
 msgid "Custom key length must be 256-bit."
-msgstr ""
+msgstr "Длина пользовательского ключа должна быть 256 бит."
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:122
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:154
@@ -3512,7 +3515,7 @@ msgstr "Вы хотите заново открыть этот файл?"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:108
 msgid "Docs"
-msgstr ""
+msgstr "Документы"
 
 #: ../../../source/FileZilla3/locales/../src/interface/welcome_dialog.cpp:100
 msgid "Documentation"
@@ -3543,7 +3546,7 @@ msgstr "Ограничение &скачивания:"
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:630
 #, c-format
 msgid "Download limit: %s/s"
-msgstr "Ограничение скачивания: %s/s"
+msgstr "Ограничение скачивания: %s/сек"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:633
 msgid "Download limit: none"
@@ -3566,7 +3569,7 @@ msgstr "Скачать выбранные файлы и каталоги"
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:766
 #, c-format
 msgid "Download: %s/s"
-msgstr ""
+msgstr "Скачивание: %s/сек"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1423
 msgid "Downloading"
@@ -4167,7 +4170,7 @@ msgstr "Возврат в активный режим"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:694
 msgid "Fil&e sizes"
-msgstr ""
+msgstr "Размеры файл&ов"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:105
 msgid "Fil&e:"
@@ -4895,7 +4898,7 @@ msgstr "Небезопасное %s соединение"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:676
 msgid "Insecure FTP data connection"
-msgstr ""
+msgstr "Небезопасное FTP соединение"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:170
 msgid "Insecure algorithm!"
@@ -5402,7 +5405,7 @@ msgstr "Минут"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:695
 msgid "Modification tim&e"
-msgstr ""
+msgstr "Вре&мя изменения"
 
 #: ../../../source/FileZilla3/locales/../src/interface/listctrlex.cpp:729
 msgid "Move &down"
@@ -5452,7 +5455,7 @@ msgstr "Закладка с таким именем уже существует.
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:858
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:904
 msgid "Name or email address"
-msgstr ""
+msgstr "Имя или адрес электронной почты"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:520
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:30
@@ -5482,7 +5485,7 @@ msgstr "Укажите кодировку символов"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:766
 msgid "Network activity:"
-msgstr ""
+msgstr "Сетевая активность:"
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:446
 msgid "Network unreachable"
@@ -5607,11 +5610,11 @@ msgstr "Нет программы, ассоциированной с данны�
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1756
 msgid "No program has been associated to edit dotfiles."
-msgstr ""
+msgstr "Ни одна программа не ассоциирована с точечными файлами (dotfiles)."
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1753
 msgid "No program has been associated to edit extensionless files."
-msgstr ""
+msgstr "Ни одна программа не ассоциирована с файлами без расширения."
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1759
 #, c-format
@@ -6906,7 +6909,7 @@ msgstr "Получение внешнего IP-адреса с %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:261
 msgid "Root certificate"
-msgstr ""
+msgstr "Корневой сертификат"
 
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:356
@@ -7892,7 +7895,7 @@ msgstr "Вы ввели адрес: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1880
 msgid "The associated program could not be found."
-msgstr ""
+msgstr "Ассоциированная программа не найдена."
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:888
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:357
@@ -7932,11 +7935,11 @@ msgstr "Соединение передачи данных не может бы�
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1784
 msgid "The default editor for text files is:"
-msgstr ""
+msgstr "Редактор по умолчанию для текстовых файлов:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1771
 msgid "The default editor for this file type is:"
-msgstr ""
+msgstr "Редактор по умолчанию для данного типа файлов:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:221
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:292
@@ -8505,11 +8508,11 @@ msgstr "Неопределенный код ошибки %d"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:261
 #, c-format
 msgid "Unexpected end-of-file on '%s'"
-msgstr ""
+msgstr "Неожиданное окончание файла '%s'"
 
 #: ../../../source/FileZilla3/locales/../src/interface/update_dialog.cpp:174
 msgid "Unfortunately information about the new update could not be retrieved."
-msgstr ""
+msgstr "К сожалению, невозможно получить информацию о последних обновлениях."
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:510
 msgid "Unit:"
@@ -8576,7 +8579,7 @@ msgstr "Неизвестная кодировка передачи"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1809
 msgid "Unknown version"
-msgstr ""
+msgstr "Неизвестная версия"
 
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:612
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:622
@@ -8614,7 +8617,7 @@ msgstr "Закачать"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:86
 msgid "Upload &limit:"
-msgstr ""
+msgstr "Ограничение &загрузки:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1432
 msgid "Upload failed"
@@ -8623,7 +8626,7 @@ msgstr "Загрузка не удалась"
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:637
 #, c-format
 msgid "Upload limit: %s/s"
-msgstr "Ограничение загрузки: %s/s"
+msgstr "Ограничение загрузки: %s/сек"
 
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:640
 msgid "Upload limit: none"
@@ -8653,7 +8656,7 @@ msgstr "Загрузить файл на сервер?"
 #: ../../../source/FileZilla3/locales/../src/interface/statusbar.cpp:766
 #, c-format
 msgid "Upload: %s/s"
-msgstr ""
+msgstr "Загрузка: %s/сек"
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1426
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1459
@@ -8718,7 +8721,7 @@ msgstr "И&спользовать системные настройки теку
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1767
 msgid "Use system association"
-msgstr ""
+msgstr "Использовать системную ассоциацию"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:194
 msgid "Use the following IP address:"
@@ -9013,7 +9016,7 @@ msgstr "Вы не указали новое название файла. Зам�
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:397
 msgid "You do not have permission to list this directory"
-msgstr ""
+msgstr "Недостаточно прав для просмотра этого каталога"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:952
 msgid "You have selected at least one symbolic link."
