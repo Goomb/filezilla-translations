@@ -6,13 +6,13 @@
 # boobaloo <koptev.oleg@gmail.com>, 2010.
 # Updated by Sergey (private_joker) <private_joker@mail.ru>, 2013, 2014
 # Updated by Pavel Starosek <starosekpd@gmail.com>, 2015-2019
-# Updated by Stepan Kashuba <ihaterabbids@gmail.com>, 2018
+# Updated by Stepan Kashuba <ihaterabbids@gmail.com>, 2018, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: Русский перевод\n"
 "Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
 "POT-Creation-Date: 2021-04-13 05:30+0200\n"
-"PO-Revision-Date: 2021-04-14 00:00+0500\n"
+"PO-Revision-Date: 2021-04-15 00:20+0500\n"
 "Last-Translator: Stepan Kashuba <ihaterabbids@gmail.com>\n"
 "Language-Team: Pavel Starosek\n"
 "Language: ru\n"
@@ -257,6 +257,8 @@ msgstr "&Применить настройки временной зоны се�
 msgid ""
 "&Always allow insecure data connections for this server in future sessions."
 msgstr ""
+"&Всегда разрешать небезопасное соединение для этого сервера в последующих "
+"сессиях."
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:633
 #, c-format
@@ -265,7 +267,7 @@ msgstr "&Всегда разрешать небезопасный обычный
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:386
 msgid "&Always trust this certificate in future sessions."
-msgstr ""
+msgstr "&Всегда доверять этому сертификату в последующих сессиях."
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:84
 msgid "&Always trust this host, add this key to the cache"
@@ -277,7 +279,7 @@ msgstr "&Всегда использовать редактор по умолч�
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1785
 msgid "&Always use selection for all unassociated files"
-msgstr ""
+msgstr "&Всегда использовать выбранное для всех файлов без ассоциации"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:93
 msgid "&Always use this action"
@@ -339,7 +341,7 @@ msgstr "&Отмена"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:248
 msgid "&Certificate in chain:"
-msgstr ""
+msgstr "&Сертификат в цепочке:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:71
 msgid "&Clear private data..."
@@ -500,7 +502,7 @@ msgstr "&Загрузки:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filteredit.cpp:102
 msgid "&Duplicate"
-msgstr ""
+msgstr "&Дублировать"
 
 #: ../../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:820
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:69
@@ -1303,6 +1305,12 @@ msgid ""
 "- In arguments, %%f is a placeholder for the file to be opened. Use %%%% for "
 "literal percents"
 msgstr ""
+"- Команда и каждый аргумент должны быть разделены пробелами\n"
+"- Команды или аргументы, содержащие пробелы или символ двойной кавычки, "
+"необходимо заключать во внешние двойные кавычки\n"
+"- Двойные кавычки внутри команды или аргумента необходимо дублировать\n"
+"- В аргументах %%f является указателем на открываемый файл. Используйте %%%% "
+"для ввода символа процента."
 
 #: ../../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:229
 msgid "--:--:-- left"
@@ -1330,29 +1338,29 @@ msgstr "/Группы"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:67
 msgid "/My Drives"
-msgstr ""
+msgstr "/Мои диски"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:69
 msgid "/My Drives/OneDrive"
-msgstr ""
+msgstr "/Мои диски/OneDrive"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:64
 msgid "/SharePoint"
-msgstr ""
+msgstr "/SharePoint"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:79
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:82
 msgid "/Shared drives"
-msgstr ""
+msgstr "/Общие диски"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:66
 msgid "/Sites"
-msgstr ""
+msgstr "/Сайты"
 
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:78
 #: ../../../source/FileZilla3/locales/../src/commonui/site_manager.cpp:81
 msgid "/Team drives"
-msgstr ""
+msgstr "/Диски вашей команды"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_debug.cpp:48
 msgid "0 - None"
@@ -1492,7 +1500,7 @@ msgstr "Д&обавить"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_fileexists.cpp:61
 msgid "A&llow resuming of ASCII files"
-msgstr ""
+msgstr "Р&азрешить возобновление для файлов ASCII"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:150
 msgid "A&pply only to downloads"
@@ -1538,7 +1546,7 @@ msgstr "Поверх списка файлов"
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:366
 msgid "Access &Grant:"
-msgstr ""
+msgstr "Предоставление &доступа:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:378
 msgid "Access &Key:"
@@ -1895,6 +1903,8 @@ msgstr "Закладки"
 msgid ""
 "Broken server, it claims to have processed a request before it got fully set"
 msgstr ""
+"Неисправный сервер. Он утверждает, что обработал запрос до того, как он был "
+"полностью сформирован"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:145
 msgid "Browse..."
@@ -1932,7 +1942,7 @@ msgstr "О&чистить все"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:657
 msgid "C&omparative search"
-msgstr ""
+msgstr "С&равнительный поиск"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1236
 #: ../../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:932
@@ -2146,7 +2156,7 @@ msgstr "Сертификаты и информация по сессии еще 
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:217
 msgid "Certificate details"
-msgstr ""
+msgstr "Детали сертификата"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:166
 msgid "Challenge:"
@@ -2335,7 +2345,7 @@ msgstr "Настройка колонки"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:77
 msgid "Command and its arguments need to be properly quoted."
-msgstr ""
+msgstr "Команду и её аргументы необходимо правильно заключить в кавычки."
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:211
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:233
@@ -2387,10 +2397,12 @@ msgid ""
 "Compare the displayed fingerprint with the certificate fingerprint you have "
 "received from your server administrator or server hosting provider."
 msgstr ""
+"Сравните отображаемый fingerprint с fingerprint сертификата, который вы "
+"получили от администратора сервера или поставщика услуг хостинга серверов."
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:693
 msgid "Compare:"
-msgstr ""
+msgstr "Сравнение:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_filelists.cpp:69
 msgid "Comparison &threshold (in minutes):"
@@ -2923,18 +2935,18 @@ msgstr "Невозможно восстановить доступ к катал
 #: ../../../source/FileZilla3/locales/../src/engine/string_reader.cpp:155
 #, c-format
 msgid "Could not seek to offset %d in '%s' of size %d."
-msgstr ""
+msgstr "Не удалось найти смещение %d в '%s' размера %d."
 
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:295
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:330
 #, c-format
 msgid "Could not seek to offset %d in '%s'."
-msgstr ""
+msgstr "Не удалось найти смещение %d в '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:454
 #, c-format
 msgid "Could not seek to offset %d within '%s'."
-msgstr ""
+msgstr "Не удалось найти смещение %d внутри '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:211
 msgid "Could not send command to fzputtygen."
@@ -2947,12 +2959,12 @@ msgstr "Невозможно послать команду на fzstorj."
 #: ../../../source/FileZilla3/locales/../src/engine/reader.cpp:319
 #, c-format
 msgid "Could not spawn worker thread for reading '%s'."
-msgstr ""
+msgstr "Не удалось создать рабочий поток для чтения '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:344
 #, c-format
 msgid "Could not spawn worker thread for writing '%s'."
-msgstr ""
+msgstr "Не удалось создать рабочий поток для записи '%s'."
 
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:355
 msgid "Could not start transfer"
@@ -2966,7 +2978,7 @@ msgstr "Невозможно синхронизировать '%s' с диско
 #: ../../../source/FileZilla3/locales/../src/engine/writer.cpp:334
 #, c-format
 msgid "Could not truncate '%s' to offset %d."
-msgstr ""
+msgstr "Не удалось обрезать '%s' до смещения %d."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:329
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:827
@@ -3153,7 +3165,7 @@ msgstr "Произвольный KMS ARN"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1355
 msgid "Custom KMS ARN id cannot be empty."
-msgstr ""
+msgstr "Пользовательский идентификатор KMS ARN не может быть пустым."
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_manager.cpp:70
 msgid "Custom filter set"
@@ -3665,6 +3677,8 @@ msgid ""
 "Either you or your system administrator has disabled checking for updates. "
 "Please re-enable checking for updates to obtain more information."
 msgstr ""
+"Проверка обновлений была выключена вами или системным администратором. "
+"Пожалуйста, включите проверку обновлений для получения большей информации."
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_themes.cpp:152
 msgid "Email:"
@@ -3703,7 +3717,7 @@ msgstr "Разрешить &фильтрацию недопустимых сим
 #. @translator: Keep short
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:360
 msgid "Encr&yption Passphrase:"
-msgstr ""
+msgstr "Код&овая фраза шифрования:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:78
 msgid "Encrypted"
@@ -3723,7 +3737,7 @@ msgstr "Параметры шифра"
 
 #: ../../../source/FileZilla3/locales/../src/engine/storj/connect.cpp:103
 msgid "Encryption passphrase is not set"
-msgstr ""
+msgstr "Не задана кодовая фраза шифрования"
 
 #: ../../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:494
 msgid "End comparison and change sorting order?"
@@ -3835,11 +3849,11 @@ msgstr "Введите имя пользователя и пароль"
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:163
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:268
 msgid "Entered file would transfer as ASCII"
-msgstr ""
+msgstr "Файл будет передан как ASCII"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:271
 msgid "Entered file would transfer as binary"
-msgstr ""
+msgstr "Файл будет передан как двоичный"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:149
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:106
@@ -3923,7 +3937,7 @@ msgstr "Примеры"
 #: ../../../source/FileZilla3/locales/../src/engine/http/request.cpp:265
 #, c-format
 msgid "Excess data read from '%s'"
-msgstr ""
+msgstr "Получены избыточные данные с '%s'"
 
 #: ../../../source/FileZilla3/locales/../src/interface/chmoddialog.cpp:95
 msgid "Exe&cute"
@@ -3937,7 +3951,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:88
 msgid "Expired!"
-msgstr ""
+msgstr "Истекло!"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_interface.cpp:56
 msgid "Explorer"
@@ -4444,7 +4458,7 @@ msgstr ""
 
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1149
 msgid "Forbidden character in file extension."
-msgstr ""
+msgstr "Запрещенный символ в расширении файла."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1055
 msgid "Force &UTF-8"
@@ -4476,7 +4490,7 @@ msgstr "Найдена новая %s %s\n"
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:80
 #, c-format
 msgid "From %s to %s"
-msgstr ""
+msgstr "С %s на %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/osx_sandbox_userdirs.cpp:52
 #, c-format
@@ -4756,6 +4770,8 @@ msgid ""
 "If you continue, transferred files may be intercepted or their contents "
 "replaced by an attacker."
 msgstr ""
+"Если вы продолжите, то злоумышленники могут перехватить передаваемые файлы "
+"или изменить из содержимое."
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:623
 msgid ""
@@ -4919,7 +4935,7 @@ msgstr "Интерфейс"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:264
 msgid "Intermediate certificate"
-msgstr ""
+msgstr "Промежуточный сертификат"
 
 #: ../../../source/FileZilla3/locales/../src/engine/controlsocket.cpp:213
 #: ../../../source/FileZilla3/locales/../src/interface/queue.cpp:351
@@ -5056,7 +5072,7 @@ msgstr "Инвертировать фильтр"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:320
 msgid "Issuer"
-msgstr ""
+msgstr "Издатель"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:521
 msgid "Jurisdiction country:"
@@ -5184,7 +5200,7 @@ msgstr "Локальный"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1185
 msgid "Local &directory:"
-msgstr ""
+msgstr "Локальный &каталог:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:87
 msgid "Local file"
@@ -5223,7 +5239,7 @@ msgstr "Способ обработки локального пути:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:708
 msgid "Local results:"
-msgstr ""
+msgstr "Локальные результаты:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/viewheader.cpp:343
 msgid "Local site:"
@@ -5253,7 +5269,7 @@ msgstr "Вход"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:443
 msgid "Login (optional):"
-msgstr ""
+msgstr "Логин (необязательно):"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:318
 msgid ""
@@ -5306,7 +5322,7 @@ msgstr "Самый низкий доступный порт должен име�
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:378
 msgid "Mac:"
-msgstr ""
+msgstr "MAC-адрес:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:31
 msgid "Magenta"
@@ -5681,7 +5697,7 @@ msgstr "Нет соединения."
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:84
 msgid "Not yet valid!"
-msgstr ""
+msgstr "Ещё не действует!"
 
 #: ../../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:770
 msgid "Note that this feature is only supported using the FTP protocol."
@@ -5692,6 +5708,8 @@ msgstr ""
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_ftpproxy.cpp:91
 msgid "Note: This only works with plain, unencrytped FTP connections."
 msgstr ""
+"Предупреждение: Это работает только с обычными, незащищенными FTP "
+"соединениями."
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_proxy.cpp:75
 msgid "Note: Using a generic proxy forces passive mode on FTP connections."
@@ -5768,6 +5786,8 @@ msgid ""
 "Only continue after you have spoken to the server administrator or server "
 "hosting provider."
 msgstr ""
+"Продолжайте только после того, как поговорите с администратором сервера или "
+"поставщиком услуг хостинга. "
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:45
 msgid "Only use plain FTP (insecure)"
@@ -6538,7 +6558,7 @@ msgstr "При сравнении каталогов быстрый поиск �
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit_associations.cpp:33
 #: ../../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1800
 msgid "Quoting rules"
-msgstr ""
+msgstr "Правила выделения кавычками"
 
 #: ../../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1812
 msgid "R&eboot system once"
@@ -6658,10 +6678,11 @@ msgstr "Получен недопустимый символ в информац
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/list.cpp:129
 msgid "Received too long response line from server, closing connection."
 msgstr ""
+"Получена слишком длинная строка ответа от сервера, соединение закрывается."
 
 #: ../../../source/FileZilla3/locales/../src/engine/sftp/sftpcontrolsocket.cpp:480
 msgid "Received too long response line, closing connection."
-msgstr ""
+msgstr "Получена слишком длинная строка ответа, соединение закрывается."
 
 #: ../../../source/FileZilla3/locales/../src/interface/clearprivatedata.cpp:75
 msgid ""
@@ -6777,7 +6798,7 @@ msgstr "Удаленный путь:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:709
 msgid "Remote results:"
-msgstr ""
+msgstr "Удалённые результаты:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/viewheader.cpp:535
 msgid "Remote site:"
@@ -6915,7 +6936,7 @@ msgstr "Корневой сертификат"
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:356
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:364
 msgid "S&atellite:"
-msgstr ""
+msgstr "С&путник:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:62
 msgid "S&how files currently being edited..."
@@ -6976,11 +6997,11 @@ msgstr "Сох&ранить пароли, защищая мастер-парол
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:153
 msgid "Same as subject, certificate is self-signed"
-msgstr ""
+msgstr "Сертификат самоподписан как и тема"
 
 #: ../../../source/FileZilla3/locales/../src/interface/loginmanager.cpp:35
 msgid "Satellite:"
-msgstr ""
+msgstr "Спутник:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_passwords.cpp:43
 #: ../../../source/FileZilla3/locales/../src/interface/asksavepassworddialog.cpp:38
@@ -7243,7 +7264,7 @@ msgstr "Выбранный порт обычно используется с д�
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:254
 msgid "Self-signed server certificate"
-msgstr ""
+msgstr "Самоподписанный сертификат сервера"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_ftp.cpp:63
 msgid "Send FTP &keep-alive commands"
@@ -7264,7 +7285,7 @@ msgstr "Серийный номер:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:338
 msgid "Serial:"
-msgstr ""
+msgstr "Серийный номер:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:884
 msgid "Server &type:"
@@ -7276,7 +7297,7 @@ msgstr "Шифрование на стороне сервера:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:257
 msgid "Server certificate"
-msgstr ""
+msgstr "Сертификат сервера"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:412
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/logon.cpp:472
@@ -7313,6 +7334,8 @@ msgstr "Ключ хоста сервера"
 #, c-format
 msgid "Server instructed us to wait %d seconds before sending next request"
 msgstr ""
+"Сервер дал нам указание подождать %d секунд перед отправкой следующего "
+"запроса"
 
 #: ../../../source/FileZilla3/locales/../src/engine/ftp/filetransfer.cpp:201
 #, c-format
@@ -7724,7 +7747,7 @@ msgstr "Улица:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:308
 msgid "Subject"
-msgstr ""
+msgstr "Тема"
 
 #: ../../../source/FileZilla3/locales/../src/interface/queueview_successful.cpp:14
 msgid "Successful transfers"
@@ -7811,12 +7834,16 @@ msgid ""
 "TLS session resumption on data connection failed. Closing control connection "
 "to start over."
 msgstr ""
+"Не удалось возобновить сеанс TLS при подключении к данным. Закрытие "
+"контрольного соединения для перезапуска."
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:691
 msgid ""
 "TLS session resumption on the data connection is an important security "
 "feature to protect against data connection stealing attacks."
 msgstr ""
+"Возобновление сеанса TLS при подключении к данным является важной функцией "
+"безопасности для защиты от атак, связанных с кражей подключения к данным."
 
 #: ../../../source/FileZilla3/locales/../src/engine/proxy.cpp:455
 msgid "TTL expired"
@@ -7824,11 +7851,11 @@ msgstr "TTL истекло"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:28
 msgid "Tardigrade (using legacy API key)"
-msgstr ""
+msgstr "Tardigrade (используя старый ключ API)"
 
 #: ../../../source/FileZilla3/locales/../src/engine/server.cpp:41
 msgid "Tardigrade - Decentralized Cloud Storage"
-msgstr ""
+msgstr "Tardigrade - Распределённое облачное хранилище"
 
 #: ../../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:36
 msgid "Target file already exists"
@@ -8279,6 +8306,7 @@ msgstr "Небезопасный сервер, не поддерживает FTP
 msgid ""
 "This server does not support TLS session resumption on the data connection."
 msgstr ""
+"Этот сервер не поддерживает возобновление сеанса TLS для передачи данных."
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:8
 msgid ""
@@ -8459,7 +8487,7 @@ msgstr "Принять новый ключ и продолжить соедин�
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:384
 msgid "Trust the server certificate and carry on connecting?"
-msgstr ""
+msgstr "Доверять сертификату сервера и продолжить подключение?"
 
 #: ../../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:77
 msgid "Trust this host and carry on connecting?"
@@ -8676,7 +8704,7 @@ msgstr "Загрузка без изменений"
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_dateformatting.cpp:62
 msgid "Us&e system defaults for current language"
-msgstr ""
+msgstr "Ис&пользовать язык системы по умолчанию"
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:1057
 msgid "Use &custom charset"
@@ -8792,7 +8820,7 @@ msgstr ""
 #. @translator: Period as in a span of time with a start and end date
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:302
 msgid "Validity period:"
-msgstr ""
+msgstr "Срок годности:"
 
 #: ../../../source/FileZilla3/locales/../src/interface/cmdline.cpp:17
 msgid "Verbose log messages from wxWidgets"
@@ -8839,6 +8867,8 @@ msgid ""
 "Warning! You have previously connected to this server and it has supported "
 "TLS session resumption on the data connection."
 msgstr ""
+"Предупреждение! Ранее вы подключались к этому серверу, и он поддерживает "
+"возобновление сеанса TLS при подключении к данным."
 
 #: ../../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:608
 msgid ""
@@ -8903,6 +8933,8 @@ msgid ""
 "When allowing FileZilla to remember passwords, you can reconnect without "
 "having to re-enter the password after restarting FileZilla."
 msgstr ""
+"Позволяя FileZilla сохранять пароли, вы можете создавать соединение без "
+"повторного ввода пароля после перезапуска программы."
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_transfer.cpp:112
 msgid ""
@@ -9058,7 +9090,7 @@ msgstr "Укажите удаленный каталог."
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:180
 msgid "You have to enter a resolver."
-msgstr ""
+msgstr "Вам необходимо ввести resolver."
 
 #: ../../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_active.cpp:175
 #: ../../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:165
@@ -9071,6 +9103,8 @@ msgid ""
 "You have to enter a valid access grant.\n"
 "Error: %s"
 msgstr ""
+"Вы должны ввести действительное разрешение на доступ.\n"
+"Ошибка: %s"
 
 #: ../../../source/FileZilla3/locales/../src/interface/search.cpp:1337
 msgid "You have to enter a writable local directory."
@@ -9123,7 +9157,7 @@ msgstr "Нужно ввести значение."
 
 #: ../../../source/FileZilla3/locales/../src/interface/sitemanager_controls.cpp:709
 msgid "You need to enter an access grant."
-msgstr ""
+msgstr "Вам необходимо ввести разрешение на доступ. "
 
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:84
 #: ../../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:504
